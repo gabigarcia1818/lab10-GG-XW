@@ -4,7 +4,9 @@ calculator.py
 
 One function per operation, in order.
 """
-
+# https://github.com/gabigarcia1818/lab10-GG-XW.git
+# Partner 1: Gabrielle Garcia
+# Partner 2: Wanchang Xiong
 
 # First example
 import math

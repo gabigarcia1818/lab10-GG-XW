@@ -1,3 +1,8 @@
+# https://github.com/gabigarcia1818/lab10-GG-XW.git
+# Partner 1: Gabrielle Garcia
+# Partner 2: Wanchang Xiong
+
+
 import unittest
 from calculator import *
 

@@ -27,9 +27,9 @@ class TestCalculator(unittest.TestCase):
 
     def test_divide(self): # 3 assertions
         self.assertEqual(div(2, 10), 5)
-        self.assertEqual(div(-9, 3), -3)
+        self.assertEqual(div(-3, 9), -3)
         with self.assertRaises(ZeroDivisionError):
-            div(10,0)
+            div(0,10)
     # ##########################
 
     ######## Partner 2
@@ -67,7 +67,7 @@ class TestCalculator(unittest.TestCase):
     def test_sqrt(self): # 3 assertions
     #     # Test for invalid argument, example:
         self.assertEqual(square_root(16), 4)
-        self.assertAlmostEqual(square_root(8),3)
+        self.assertAlmostEqual(square_root(49),7.0)
         with self.assertRaises(ValueError):
             square_root(-1)
 
